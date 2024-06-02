@@ -1,0 +1,30 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+ }
+ .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50vh;
+    align-items: center;
+    padding: 0 100px;
+
+
+ }
+ #uploadForm,
+ #dowmloadForm{
+    background-color: #eee;
+    padding: 100px 50px;
+
+ }
+ 
